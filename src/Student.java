@@ -8,6 +8,6 @@ public class Student extends Person {
         }
 
         public String toString() {
-            return "Student[super:" + ]"
+            return "Student[super:" +super.toString()+ "  ]";
         }
     }

@@ -1,7 +1,7 @@
 public class Person {
-<<<<<<< HEAD
 
-=======
+
+
     int id;
     String name;
     int age;
@@ -13,6 +13,5 @@ public class Person {
         this.age = age;
 
     }
->>>>>>> b381838c88ddf438a9d977bd2a8600a76a80899b
 
 }

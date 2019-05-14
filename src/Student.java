@@ -10,6 +10,6 @@ public class Student extends Person {
         }
 
         public String toString() {
-            return "Student[super:" + super.toString() + ", average: " + average + "]";
+            return "Student: " + super.toString() + ", average: " + average + "]";
         }
     }

@@ -1,16 +1,16 @@
 public class Rectangle extends Shape {
 
-    double widht;
+    double width;
     double length;
 
     public Rectangle(double width, double length){
-        this.widht = widht;
+        this.width = width;
         this.length = length;
     }
 
     @Override
     public double area (){
-        return widht+length;
+        return (width * length);
 
      }
 

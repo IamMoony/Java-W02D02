@@ -1,6 +1,8 @@
-public class Shape {
-
-    public abstract double area(); {
-
+public abstract class Shape
+{
+    public abstract double area();
+    public String toString()
+    {
+        return "The area is " + area();
     }
 }

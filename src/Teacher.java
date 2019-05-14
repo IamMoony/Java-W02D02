@@ -8,7 +8,7 @@ public class Teacher extends Person {
     }
 
         public String toString() {
-            return "Teacher[" + super.toString() + " ,major: " + major + "]";
+            return "Teacher: " + super.toString() + " ,major: " + major + "]";
 
     }
 }

@@ -12,6 +12,6 @@ public class Person {
     }
 
     public String toString() {
-        return "Person[id:" + id + " name: " + name + " age: " + age + "]";
+        return "Person: id:" + id + " name: " + name + " age: " + age + "]";
     }
 }

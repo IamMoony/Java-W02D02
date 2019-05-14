@@ -4,6 +4,10 @@ public class Teacher extends Person {
 
     public Teacher(int id, String name, int age, int major) {
         super(id, name, age);
+    }
+
+        public String toString() {
+            return "Teacher[super:" + super.toString() + " ,major: " + major + "]";
 
     }
 }
